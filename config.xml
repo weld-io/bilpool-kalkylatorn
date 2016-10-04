@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.weld.bilpoolkalkylatorn" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Bilpool-kalkylatorn</name>
+    <description>Jämför Sunfleet, Car2Go, och DriveNow med att äga egen bil.</description>
+    <author email="contact@weld.io" href="https://www.weld.io">Weld</author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <access origin="https://d12wzx9jhww7k1.cloudfront.net" />
+    <access origin="https://d3kzdohl1nxwtg.cloudfront.net" />
+    <access origin="https://ds9izj7ug4pro.cloudfront.net" />
+    <access origin="https://www.weld.io" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <splash src="res/splash_512.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <splash src="res/splash_512.png" />
+    </platform>
+    <platform name="browser">
+        <splash src="res/splash_512.png" />
+    </platform>
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.0" />
+    <icon src="res/bilpool_icon.png" />
+    <engine name="ios" spec="~4.2.1" />
+    <engine name="android" spec="~5.2.2" />
+</widget>
