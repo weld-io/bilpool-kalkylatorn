@@ -6,10 +6,11 @@
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
+    <access origin="https://www.weld.io" />
     <access origin="https://d12wzx9jhww7k1.cloudfront.net" />
     <access origin="https://d3kzdohl1nxwtg.cloudfront.net" />
     <access origin="https://ds9izj7ug4pro.cloudfront.net" />
-    <access origin="https://www.weld.io" />
+    <access origin="http://fonts.googleapis.com" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
