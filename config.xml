@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.weld.bilpoolkalkylatorn" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.weld.bilpoolkalkylatorn" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Bilpool-kalkylatorn</name>
     <description>Jämför Sunfleet, Car2Go, och DriveNow med att äga egen bil.</description>
     <author email="contact@weld.io" href="https://www.weld.io">Weld</author>
