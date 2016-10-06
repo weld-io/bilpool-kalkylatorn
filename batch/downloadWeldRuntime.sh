@@ -1,12 +1,17 @@
 #!/bin/sh
 
-cd ..
+# Run from main (not /batch) folder
+
+WELD_DIST_SCRIPTS_PATH=../../weld-angular-node/dist/public
 
 echo
-echo Downloading CSS/JavaScript ...
+echo Copying CSS/JavaScript ...
 
-curl https://d12wzx9jhww7k1.cloudfront.net/scripts/customDomain.dabd7ec8.js > www/js/weld.js
-curl https://d12wzx9jhww7k1.cloudfront.net/styles/customdomain.c8d3ccf0.css > www/css/weld.css
+ls $WELD_DIST_SCRIPTS_PATH/scripts/customDomain*
+cp $WELD_DIST_SCRIPTS_PATH/scripts/customDomain* www/js/weld.js
+
+ls $WELD_DIST_SCRIPTS_PATH/styles/customdomain*
+cp $WELD_DIST_SCRIPTS_PATH/styles/customdomain* www/css/weld.css
 
 
 echo
